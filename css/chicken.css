@@ -1,0 +1,64 @@
+#gridContainerBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(7,480px);
+    gap:20px;
+    width: 70%;
+    margin: auto;
+    
+}
+#gridContainerBox > div{
+    
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}#gridContainerBox > div > img{
+    height: 250px;
+    /* border-radius: 2%; */
+}
+#gridContainerBox > div > h4{
+    margin-left: 10px;
+    
+    
+}
+#gridContainerBox > div > p{
+    margin-left: 10px;
+    color: grey;
+}    
+    
+
+    
+    
+
+
+.netWt{
+    
+    margin-top:-20px;
+    display: flex;
+    justify-content:space-between;
+    
+    padding-left:3%;
+    padding-right:3%;
+}
+.cartBtnWithPrice{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top:-20px;
+}
+.cartBtnWithPrice>h4{
+    margin-left: 10px;
+    color: red;
+}
+.btn{
+    height: 30px;
+    padding: 2%;
+    margin: 4%;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border-radius: 5%;
+    font-size: 11px;
+    font-weight: 600;
+    border: none;
+}
