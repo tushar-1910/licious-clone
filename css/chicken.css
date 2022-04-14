@@ -1,6 +1,5 @@
 .headC{
     display: flex;
-    
     padding-left: 10%;
 }
 .headC>h2{
@@ -177,3 +176,8 @@
     padding-left: 2%;
     
 }
+ #check
+ {
+    padding: 50px;
+    
+ }
