@@ -181,3 +181,30 @@
     padding: 50px;
     
  }
+ /*  cart item div */
+
+ #added-items{
+     height: 100vh;
+     width: 30vw;
+     background-color: white;
+     position: absolute;
+     right: 0%;
+     z-index: 10;
+     display: none;
+     padding: 2%;
+     box-sizing: border-box;
+     
+ }
+ #added-items > h3 {
+     background-color: darkgreen;
+     color:white;
+ }
+.item{
+   border: 1px solid black;
+   padding:10px;
+}
+
+.addedCartImg{
+height: 10%;
+width: 10%;
+}
