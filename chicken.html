@@ -11,6 +11,20 @@
     
 </head>
 <body>
+    <div id="added-items"> 
+        <button onclick="hide()">  X </button>
+
+         <h1> Ordered Summary</h1>  
+         <h3> Congratulations, Your delivery charged is waived off</h3>  
+         <div id = "addedToCartItems">
+             
+         </div> 
+
+         <div id="total"></div>
+
+
+    </div>
+
     <div class="header">
         <div class="top-nav">
             <div class="container">
@@ -70,14 +84,16 @@
                             <div class="login-text">Login</div>
                         </div>
                     </a>
-                    <a href="" class="">
-                        <img class="cart-pic" src="https://www.licious.in/img/default/cart_icon.svg" alt="">
-                        <span class="cart-text">Cart</span>
-                    </a>
+                    
+                        <img onclick="show()" class="cart-pic" src="https://www.licious.in/img/default/cart_icon.svg" alt="">
+                        <span class="cart-text" >Cart</span>
+                        <span id="item-count"> </span>
+                    
                 </div>
             </div>
         </div>
-        <div class="category-list">
+
+        <div  class="category-list">
             <div class="category">
                 <a href="">
                     <div class="sameelem">
@@ -212,8 +228,10 @@
             </div>
         </div>
 
+       
+
         <div id="topGrid">
-            <div>
+            <!-- <div>
                 <img src ="images/chickenDiv5.jpeg">
                 <h4> Chicken Thigh - Boneless</h4>
                 <p> Cut from the upper-leg, above the knee joint</p>
@@ -223,7 +241,7 @@
                 </div>
                 <div class="cartBtnWithPrice">
                 <h4> MRP: 295</h3>
-                <button class="btn"> ADD TO CART </button>
+                <button class="btn" onclick="cartCount()"> ADD TO CART </button>
                 </div>
                 <hr>
                 <div class="delLogo">
@@ -243,7 +261,7 @@
                 </div>
                 <div class="cartBtnWithPrice">
                 <h4> MRP: 275</h3>
-                <button class="btn"> ADD TO CART </button>
+                <button class="btn" onclick="cartCount()"> ADD TO CART </button>
                 </div>
                 <hr>
                 <div class="delLogo">
@@ -263,7 +281,7 @@
                 </div>
                 <div class="cartBtnWithPrice">
                 <h4> MRP: 305</h3>
-                <button class="btn"> ADD TO CART </button>
+                <button class="btn" onclick="cartCount()"> ADD TO CART </button>
                 </div>
                 <hr>
                 <div class="delLogo">
@@ -271,7 +289,7 @@
                 <p>Today in 90 min</p>
                </div>
 
-            </div>
+            </div> -->
             
         </div>
 
