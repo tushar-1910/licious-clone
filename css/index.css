@@ -1,3 +1,147 @@
+.slides{
+  width: 100%;
+  margin: 20px auto;
+}
+.slides img{
+    width:100%;
+    height:auto;
+    cursor: pointer;
+}
+#belowSlider{
+    width:68.5%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ffdc93;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+    margin: 16px auto 2%;
+    margin-bottom: 60px;
+}
+#belowSlider  div{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 16px 12px;
+}
+#belowSlider div p{
+  background-color:#e41d36;
+  width:100px;
+  border-radius: 5px;
+   color:white ;
+   font-family:Roboto,sans-serif;
+   font-size: 14px;
+   text-align: center;
+   padding:15px;
+}
+#belowSlider div img{
+    height:50px;
+    width:150px;
+}
+#belowSlider>h5{
+    border-top: 2px solid gray;
+  text-align: left;
+  font-size: 15px;
+  font-style: bold;
+  color: #313131;
+  padding: 4px 16px;
+  font-family: sans-serif;;
+  margin-top: -10px;
+}
+.h2{
+  font-size: 3.56rem;
+  line-height: 110%;
+  margin: 1.78rem 0 1.424rem 0;
+}
+#know-licious-way{
+    width:90%;
+   display:block;
+  margin:16px auto 2%; ;
+  border-radius: 8px;
+  border: 1px solid #dedddd;
+  position: relative;
+  
+}
+#know-licious-way h2{
+position: absolute;
+padding: 10px 10px;
+text-align: center;
+background-color:white;
+color: #e41d36;
+font-size: 20px;
+top: -50px;
+left: 50%;
+width: 300px;
+margin-left: -150px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+}
+#know-licious-way > p{
+  display: inline-block;
+ height:auto;
+  vertical-align: middle;
+  font-size: 17px;
+  color: #4a4a4a;
+  padding: 0 59px;
+  border-right: 1px solid #dedddd;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  width:9.114%;
+}
+#interlaced-img{
+    width:80%;
+    height:auto;
+    margin: auto;
+}
+#interlaced-img > img{
+  width:100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#heading-bestSellers{
+  width:90%;
+  margin: auto;
+  text-align: left;
+  font-size: 22px;
+  color: #4a4a4a;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#bestSellers{
+  width:90%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    height:auto;
+    margin: auto;
+}
+.box{
+width:100%;
+margin:auto;
+height: auto;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+}
+#heading-bonelessCuts{
+width:90%;
+margin: auto;
+text-align: left;
+font-size: 22px;
+color: #4a4a4a;
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+@media all and (min-width: 80px) and (max-width: 400px) {
+#bestSellers{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+}
 
 #ExploreByCategory{
     font-size: 2vw;

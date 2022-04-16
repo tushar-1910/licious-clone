@@ -116,16 +116,6 @@ function showData(detail) {
 
         item.append(headImage, title, desp, netWt, cartBtnWithPrice, delLogo)
         container.append(item)
-
-        
-
-
-
-
-
-
-
-
     });
 
     

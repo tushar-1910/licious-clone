@@ -124,7 +124,7 @@
     
     cursor: pointer;
     color: white;
-    background-color: red;
+    background-color: #e41d36;
     border-radius: 5%;
     font-size: 13px;
     font-weight: 400;
@@ -152,7 +152,7 @@
 }
 .cartBtnWithPrice>h4{
     margin-left: 10px;
-    color: red;
+    color: #e41d36;
 }
 .btn{
     height: 30px;
@@ -160,7 +160,7 @@
     margin: 4%;
     cursor: pointer;
     color: white;
-    background-color: red;
+    background-color: #e41d36;
     border-radius: 5%;
     font-size: 11px;
     font-weight: 600;
