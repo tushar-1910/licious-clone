@@ -7,8 +7,7 @@ function payment()
     var expiry = document.querySelector('#expiry').value;
     if(cardNumber.length == 16 && cvv.length==3 && expiry)
     {
-        alert('Order Placed');
-        window.location.href = '../index.html';
+        window.location.href = './orderSuccess.html';
     }
     else{
         alert('Enter correct details');
