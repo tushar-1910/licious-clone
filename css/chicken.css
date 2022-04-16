@@ -96,19 +96,25 @@
     height: 110px;
     width: 50%;
     margin: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #FBDC93;
     margin-top: 4%;
     margin-bottom: 4%;
+    border-radius: 5px;
 }
 #boxImageTop{
     display: flex;
     justify-content: space-between;
-    
     padding: 2%;
-    border-radius: 2%;
+    border-radius: 5px;    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+}
+hr
+{
+    border: 0.5px solid rgba(0,0,0,.2);
+    padding: 0;
+    margin: 0;
 }
 #boxImageDown{
     text-align: left;
