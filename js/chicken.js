@@ -146,19 +146,22 @@ function sentDataToCart(element){
     addedImg.className = "addedCartImg"
 
     let heading = document.createElement("p");
-    heading.innerText = element.title
+    heading.innerText = element.title;
+    heading.className ="cartHead"
 
     let price = document.createElement("p");
-    price.innerText = element.price
-    calTotal(element.rupees)
+    price.innerText = element.price;
+    calTotal(element.rupees);
+    price.className = "tot"
 
     item.append(addedImg,heading,price)
     addedToCartItems.append(item)
+    
 
 }
 
 function calTotal(price){
-total+=price
-document.getElementById("total").innerHTML=total;
+total+=price 
+document.getElementById("total").innerHTML=" Total Amount = " + total 
 }
 
