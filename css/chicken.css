@@ -274,5 +274,9 @@ width: 50%;
     
 
  }
+ #added-items > button > a  {
+     text-decoration: none;
+     color:white;
+ }
 
  

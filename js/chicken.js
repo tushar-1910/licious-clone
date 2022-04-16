@@ -97,6 +97,7 @@ function showData(detail) {
         button.addEventListener("click",()=>{
             cartCount()
             sentDataToCart(element)
+            alert("Item added")
         })
 
         cartBtnWithPrice.append(price, button)
