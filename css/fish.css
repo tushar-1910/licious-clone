@@ -179,6 +179,39 @@
 }
 #check
  {
-    padding: 50px;
-    
+    padding: 50px;  
  }
+
+ @media all and (min-width: 514px) and (max-width: 938px)
+ {
+     #topGrid{
+         grid-template-columns: repeat(2,1fr);
+         grid-template-rows: auto;
+     }
+ 
+     #gridContainerBox{
+         grid-template-columns: repeat(2,1fr);
+         grid-template-rows: auto;
+     }
+     #check
+     {
+         margin-top: 150px;
+     }
+ }
+
+@media all and (min-width: 200px) and (max-width: 513px)
+{
+    #topGrid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #gridContainerBox{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #check
+    {
+        margin-top: 280px;
+    }
+}

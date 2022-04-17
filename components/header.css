@@ -6,6 +6,7 @@
 .top-nav
 {
     display: flex;
+    flex-wrap: wrap;
     /* font-size: 0; */
     /* padding: 3px 0; */
     /* background: #eaeaea; */
@@ -45,22 +46,36 @@ select
     font-size: 13px;
     outline: 0;
 }
-.container
-{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 1150px;
-    font-family: Lato,sans-serif;
-}
 
+.header-mid
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
 .sub-header
 {
     background-color: #fff;
     padding: 25px 0;
     height: 80px;
-    margin: 0;
+    width: 1150px;
+    margin: auto;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Lato,sans-serif;
+
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1150px;
+    font-family: Lato,sans-serif;
 }
 .logo img
 {
@@ -96,6 +111,7 @@ select
 .location
 {
     display: flex;
+    ;
 }
 .down-arrow
 {
@@ -114,6 +130,7 @@ select
     cursor: pointer;
     width: 480px;
     display: flex;
+    ;
     justify-content: space-between;
     height: 25px;
     border-radius: 5px;
@@ -146,6 +163,7 @@ select
 .profile
 {
     display: flex;
+    /* ; */
     position: relative;
     cursor: pointer;
 }
@@ -215,6 +233,7 @@ select
     white-space: nowrap;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     /* overflow: auto; */
 }
 .sameelem

@@ -13,7 +13,7 @@
          if(a.length==10)
          {
             document.querySelector("#proceed").style.backgroundColor="#e41d36";
-        alert("OTP sent");
+        alert("Your OTP is 1234");
          }
         }
        
@@ -32,7 +32,7 @@
           {
               document.getElementById("proceed").style.backgroundColor="#e41d36";
               alert("Login Successfull");
-         window.location.href="../index.html";
+         window.location.href="../after-login.html";
           }
           else{
               alert("Wrong OTP")

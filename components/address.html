@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./footer.css">
-    <link rel="stylesheet" href="./payment.css">
+    <link rel="stylesheet" href="./address.css">
 </head>
 <body>
     <div class="header" style="height: 105px;">
@@ -39,7 +39,6 @@
                 </div>
             </div>
         </div>
-
 
         <div class="header-mid" style="box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;">
             <div class="sub-header" >
@@ -77,20 +76,19 @@
                         </a>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     <div id="container2">
-        <h1>Enter payment details</h1>
+        <h1>Enter Address</h1>
         <form>
-            <input type="number" id="cardNumber" placeholder="Enter your card number">
-            <div>
-                <input type="number" id="cvv" placeholder="Enter CVV">
-                <p>Enter expiry date</p>
-                <input type="month" id="expiry">
+            <input type="text" class="name" placeholder="Enter your address line 1">
+            <input type="text" class="name" placeholder="Enter your address line 2">
+            <div class="city">
+                <input type="text" placeholder="Enter city">
+                <input type="text" placeholder="Enter state">
+                <input type="text" placeholder="Enter pinocde">
             </div>
-            <input type="text" id="name" placeholder="Enter name">
-            <button id="payment">Place Order</button>
+            <button id="payment"><a href="./payment.html" style="color: white;">Complete Payment</a></button>
         </form>
     </div>
     <div class="footer" style="background-color: white;">
@@ -170,6 +168,6 @@
         </div>
     
 </body>
-<script src="./payment.js">
+<!-- <script src="./address.js"> -->
 </script>
 </html>
