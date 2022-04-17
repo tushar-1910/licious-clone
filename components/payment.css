@@ -18,6 +18,10 @@
             height: 30px;
             justify-content: space-between;
         }
+        h1
+        {
+            margin-left: 25px;
+        }
         #container2
         {
             background-color: white;
